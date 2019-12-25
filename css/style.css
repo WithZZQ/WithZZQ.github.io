@@ -56,6 +56,14 @@ body {
   left: 0;
 }
 
+.div_foot {
+    position: absolute;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+}
+
 /* ============================================== Fire
 */
 .fuego {
