@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 </head>
 <body>
-	      <audio autoplay="autopaly">
+	      <audio id="bgaudio" loop="loop">
           <source src="./music/love.mp3" type="audio/mp3" />
       </audio>  
 <script>
@@ -200,5 +200,8 @@
 		document.getElementById('code2').typewriter();
 	}
     setTimeout("fx()",2000); 
+</script>
+<script>
+   document.getElementById('bgaudio').play();
 </script>
 </html>
