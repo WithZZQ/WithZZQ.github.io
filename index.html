@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+	
+
 	<head>
 		<meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" name=viewport>
 		<meta name=format-detection content="telephone=no">
@@ -11,15 +13,33 @@
 		<title>给兆荃的小礼物~</title>
 		<link rel=icon href=static/img/kg.png>
 		<link href=static/css/app.7cedb17e2dca9368be3e5d7f72423f08.css rel=stylesheet>
+		
+	<audio autoplay="autopaly" loop="loop" id="vd" controls="controls">
+	    <source src="btf.mp3" type="audio/mp3" />
+	</audio>
 	</head>
 
 	<body>
 		<div id=app></div>
+<!--			
+	<script type="text/javascript">
+    window.onload = function(){
+             setInterval("toggleSound()",100);
+        }
+
+    function toggleSound() {
+                var music = document.getElementById("vd");//获取ID  
+                music.play();    
+                if (music.paused) { //判读是否播放  
+                    music.paused=false;
+                    music.play(); //没有就播放 
+                }    
+        }
+</script>-->
 		<script type=text/javascript src=static/js/manifest.7f143e2aa81f40046d60.js></script>
 		<script type=text/javascript src=static/js/vendor.ccc7843f48bd0a2aeb0e.js></script>
 		<script type=text/javascript src=static/js/app.76d01a000d484c70e9ca.js></script>
+		
 	</body>
-
-	<audio src="btf.mp3" autoplay="autoplay" preload="auto" loop="loop" controls="controls"></audio>
 
 </html>
